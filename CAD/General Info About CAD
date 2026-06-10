@@ -1,6 +1,6 @@
 ## Design Objectives:
-* This design is made to manufacture a 3-axis CNC carving machine(can be 3D printed)
-* There are two plates which holds the electronics between.
+* This design is made to manufacture using a 3-axis CNC carving machine(can be 3D printed)
+* There are two plates holding the electronics between.
 * For the assembly of the main two plates m4 screws will be used.
 * There are 4 pieces which results with a phone holder like structure. That structure holds the assembly of the two plates.
 * No ready text type is used in the BBR text applied on the front plate, the text is manuelly modeled.
