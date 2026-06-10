@@ -1,8 +1,20 @@
 ## Design Objectives:
-* This design is made to manufacture using a 3-axis CNC carving machine(can be 3D printed)
-* There are two plates holding the electronics between.
-* For the assembly of the main two plates m4 screws will be used.
-* There are 4 pieces which results with a phone holder like structure. That structure holds the assembly of the two plates.
+* This design is made to be manufactured using a 3-axis CNC carving machine(can be 3D printed)
+* The back plate was designed to hold these hardware parts:
+    - Potentiometer*3
+    - Switch*2
+    - Strip LED(will be sticked on the surface)
+    - Arduino Uno
+    - Self-made transistor PCB
+* The holder parts are designed to hold the back-front plate assembly in place(apx 45 degrees)
+* Both of the plates (back and front) has screw holes to allow them to be assembled
 * No ready text type is used in the BBR text applied on the front plate, the text is manuelly modeled.
+* One of the biggest constraints at this design was the dimensions of the CNC workspace
+
+## Software Used:
+* The design of this project is mainly done in Autodesk Fusion 360.
+
+## Part List
 * HDF wood plates with 4 mm thickness will be used.
 * It is suggested to use small(1-1.5 mm) CNC bits for a better result.
+* For the assembly of the main two plates m4 screws will be used.
