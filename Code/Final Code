@@ -1,1 +1,74 @@
+#include <IRremote.h>
+#include <Arduino.h>
+const int IRpin = 7;
+
+const int green = 3;
+const int red = 5;
+const int blue = 6;
+
+const int Switch = 8;
+
+const int button1= 0x45;
+const int button2= 0x46;
+const int button3= 0x47;
+
+const int potpinl = A0;
+const int potpin2 = A1;
+const int potpin3 = A2;
+
+void setup() {
+  Serial.begin(9600);
+  IrReceiver.begin(IRpin,ENABLE_LED_FEEDBACK);
+  pinMode (green, OUTPUT);
+  pinMode (red, OUTPUT);
+  pinMode (blue, OUTPUT);
+  pinMode(Switch, INPUT);
+}
+
+void loop() {
+  if (digitalRead(Switch) == HIGH){
+    runNormalCode();
+  }
+  else {
+    runAltarnateCode();
+  }
+}
+void runNormalCode() {
+  if (IrReceiver.decode()){
+    int receivedCommand = IrReceiver.decodedIRData.command;
+    Serial.println(IrReceiver.decodedIRData.command, HEX);
+    if (receivedCommand == button1){
+      digitalWrite(red, LOW);
+      digitalWrite(blue, HIGH);
+      digitalWrite(green, HIGH);
+    }
+    else if (receivedCommand == button2){
+      digitalWrite(red, HIGH);
+      digitalWrite(blue, LOW);
+      digitalWrite(green, HIGH);
+    }
+     else if (receivedCommand == button3){
+      digitalWrite(red, HIGH);
+      digitalWrite(blue, HIGH);
+      digitalWrite(green, LOW);
+    }
+    IrReceiver.resume();
+  }
+}
+
+
+
+void runAltarnateCode() {
+  int potv = analogRead (potpinl);
+  int brightness = map(potv, 0, 1023, 0, 150);
+  analogWrite(green, brightness);
+
+  int potvl = analogRead(potpin2);
+  int brightness1 = map(potvl, 0, 1023, 0, 120);
+  analogWrite(red, brightness1);
+
+  int potv2 = analogRead (potpin3);
+  int brightness2 = map(potv2, 0, 1023, 0, 255);
+  analogWrite(blue, brightness2);
+}
 
