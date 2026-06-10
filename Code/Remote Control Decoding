@@ -1,0 +1,19 @@
+// C++ code
+//
+
+#include <IRremote.h>
+const int IRpin = 7;
+
+void setup() {
+  Serial.begin(9600);
+  IrReceiver.begin(IRpin,ENABLE_LED_FEEDBACK);
+}
+
+void loop() {
+  if (IrReceiver.decode()){
+    int receivedCommand = IrReceiver.decodedIRData.command;
+    Serial.println(IrReceiver.decodedIRData.command, HEX);
+    IrReceiver.resume()
+  }
+  
+}
