@@ -1,1 +1,17 @@
+#include <Arduino.h>
+
+const int potpin1 = A1;
+const int potpin2 = A2;
+const int potpin3 = A3;
+
+void setup() {
+  Serial.begin(9600);
+
+}
+
+void loop() {
+    int potv = analogRead(potpin1);//try by changing the potentiometer being detected one by one not to make the prints mix up
+    int brightness = map(potv, 0, 1023, 0, 160);
+    Serial.print(brightness)
+}
 
