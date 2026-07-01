@@ -1,7 +1,4 @@
-// C++ code
-//
-
-#include <IRremote.h>
+#include <IRremote.h>//this code can be used to detect if the IR receiver moule is working as well
 const int IRpin = 7;
 
 void setup() {
