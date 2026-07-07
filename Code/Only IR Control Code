@@ -1,18 +1,22 @@
-// C++ code
-//
-#include <IRremote.h>
 #include <Arduino.h>
+#include <IRremote.h>
+
 
 const int IRpin = 7;
 
-const int green = 3;
+const int green = 10;
 const int red = 5;
 const int blue = 6;
 
 const int button1= 0x45;
 const int button2= 0x46;
 const int button3= 0x47;
-
+const int button4= 0x44;
+const int button5= 0x40;
+const int button6= 0x43;
+const int button7= 0x7;
+const int button8= 0x15;
+const int button9= 0x9;
 void setup() {
   Serial.begin(9600);
   IrReceiver.begin(IRpin,ENABLE_LED_FEEDBACK);
@@ -22,25 +26,56 @@ void setup() {
   pinMode (IRpin, INPUT);
 }
 
-
+void loop() {
   if (IrReceiver.decode()){
     int receivedCommand = IrReceiver.decodedIRData.command;
     Serial.println(IrReceiver.decodedIRData.command, HEX);
     if (receivedCommand == button1){
       digitalWrite(red, LOW);
-      digitalWrite(blue, HIGH);
+      digitalWrite(blue, LOW);
       digitalWrite(green, HIGH);
     }
     else if (receivedCommand == button2){
       digitalWrite(red, HIGH);
       digitalWrite(blue, LOW);
-      digitalWrite(green, HIGH);
+      digitalWrite(green, LOW);
     }
-     else if (receivedCommand == button3){
-      digitalWrite(red, HIGH);
+    else if (receivedCommand == button3){
+      digitalWrite(red, LOW);
       digitalWrite(blue, HIGH);
       digitalWrite(green, LOW);
     }
+    else if (receivedCommand == button4){
+      digitalWrite(red, 0);
+      digitalWrite(blue, 255);
+      digitalWrite(green, 255);
+    }
+    else if (receivedCommand == button5){
+      digitalWrite(red, 130);
+      digitalWrite(blue, 255);
+      digitalWrite(green, 0);
+    }
+    else if (receivedCommand == button6){
+      digitalWrite(red, 200);
+      digitalWrite(blue, 255);
+      digitalWrite(green, 150);
+    }
+    else if (receivedCommand == button7){
+      digitalWrite(red, 255);
+      digitalWrite(blue, 0);
+      digitalWrite(green, 25);
+    }
+    else if (receivedCommand == button8){
+      digitalWrite(red, 0);
+      digitalWrite(blue, 255);
+      digitalWrite(green, 150);
+    }
+    else if (receivedCommand == button9){
+      digitalWrite(red, 0);
+      digitalWrite(blue, 255);
+      digitalWrite(green, 10);
+    }
+
     IrReceiver.resume();
   }
 }
