@@ -1,4 +1,3 @@
-<img width="976" height="594" alt="image" src="https://github.com/user-attachments/assets/694fa7c7-d604-4585-b949-e94177e78c38" /># DecoFLL
 A decoration piece with remote and manuelly controllable RGB for our schools First Lego League Team, BBR!!!
 
 # Key Features:
