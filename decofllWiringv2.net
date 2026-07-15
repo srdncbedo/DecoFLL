@@ -1,0 +1,1878 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\Yılmaz\\OneDrive\\Documentos\\decofllWiringv2\\decofllWiringv2.kicad_sch")
+		(date "2026-07-15T22:59:15")
+		(tool "Eeschema 10.0.3")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "decofllWiringv2.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "A1")
+			(value "Arduino_UNO")
+			(footprint "Module:Arduino_UNO_R3")
+			(datasheet "https://www.arduino.cc/en/Main/ArduinoBoardLeonardo")
+			(description "Arduino LEONARDO Microcontroller Module")
+			(fields
+				(field
+					(name "Footprint") "Module:Arduino_UNO_R3")
+				(field
+					(name "Datasheet") "https://www.arduino.cc/en/Main/ArduinoBoardLeonardo")
+				(field
+					(name "Description") "Arduino LEONARDO Microcontroller Module")
+			)
+			(libsource
+				(lib "MCU_Module")
+				(part "Arduino_Leonardo")
+				(description "Arduino LEONARDO Microcontroller Module")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Arduino LEONARDO Microcontroller Module Atmel AVR USB")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Arduino*UNO*R3*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d727f5e7-1c3e-4846-9810-a9208da868c3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "LED_ARGB")
+			(description "RGB LED, anode/red/green/blue")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "RGB LED, anode/red/green/blue")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED_ARGB")
+				(description "RGB LED, anode/red/green/blue")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED RGB diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0c45978b-895e-4ba9-939d-f90132a741a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "Polyfuse")
+			(description "Resettable fuse, polymeric positive temperature coefficient")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(libsource
+				(lib "Device")
+				(part "Polyfuse")
+				(description "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resettable fuse PTC PPTC polyfuse polyswitch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*polyfuse* *PTC*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1c3bf224-221d-42f9-833f-d4c2e8e19904")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F2")
+			(value "Polyfuse")
+			(description "Resettable fuse, polymeric positive temperature coefficient")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(libsource
+				(lib "Device")
+				(part "Polyfuse")
+				(description "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resettable fuse PTC PPTC polyfuse polyswitch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*polyfuse* *PTC*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f832ccde-9642-4f30-b936-b6f379fab243")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "Q_NMOS")
+			(description "N-MOSFET transistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "Q_NMOS")
+				(description "N-MOSFET transistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NMOS N-MOS")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f47540bd-aa15-4430-9f65-4e4cfe4ac860")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "G")
+						)
+						(pin
+							(num "D")
+						)
+						(pin
+							(num "S")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "Q_NMOS")
+			(description "N-MOSFET transistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "Q_NMOS")
+				(description "N-MOSFET transistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NMOS N-MOS")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0d3634ba-7e33-4666-a52e-56a2fe7699e2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "G")
+						)
+						(pin
+							(num "D")
+						)
+						(pin
+							(num "S")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q3")
+			(value "Q_NMOS")
+			(description "N-MOSFET transistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "Q_NMOS")
+				(description "N-MOSFET transistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "NMOS N-MOS")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f9824895-b037-40f0-9d88-ff07a248347a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "G")
+						)
+						(pin
+							(num "D")
+						)
+						(pin
+							(num "S")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RV1")
+			(value "R_Potentiometer_Trim")
+			(description "Trim-potentiometer")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Type") "POT")
+				(field
+					(name "Sim.Pins") "1=r0 2=wiper 3=r1")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Trim-potentiometer")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Potentiometer_Trim")
+				(description "Trim-potentiometer")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Type")
+				(value "POT")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=r0 2=wiper 3=r1")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resistor variable trimpot trimmer")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Potentiometer*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1c135c57-214f-402f-af78-6259c34b0923")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RV2")
+			(value "R_Potentiometer_Trim")
+			(description "Trim-potentiometer")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Type") "POT")
+				(field
+					(name "Sim.Pins") "1=r0 2=wiper 3=r1")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Trim-potentiometer")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Potentiometer_Trim")
+				(description "Trim-potentiometer")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Type")
+				(value "POT")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=r0 2=wiper 3=r1")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resistor variable trimpot trimmer")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Potentiometer*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e6ec5098-3363-4f8e-a2d8-bb8260d20c9f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "RV3")
+			(value "R_Potentiometer_Trim")
+			(description "Trim-potentiometer")
+			(fields
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Type") "POT")
+				(field
+					(name "Sim.Pins") "1=r0 2=wiper 3=r1")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Trim-potentiometer")
+			)
+			(libsource
+				(lib "Device")
+				(part "R_Potentiometer_Trim")
+				(description "Trim-potentiometer")
+			)
+			(property
+				(name "Sim.Device")
+				(value "R")
+			)
+			(property
+				(name "Sim.Type")
+				(value "POT")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=r0 2=wiper 3=r1")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "resistor variable trimpot trimmer")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Potentiometer*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fb094444-9464-45df-bcdb-08b2f8025730")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "Mode_controlsw")
+			(footprint "Button_Switch_SMD:Nidec_Copal_CAS-120A")
+			(datasheet "https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Footprint") "Button_Switch_SMD:Nidec_Copal_CAS-120A")
+				(field
+					(name "Datasheet") "https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Nidec_CAS-120A1")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*Nidec?Copal?CAS?120A*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "809d5d21-7e0f-46e6-8186-858049709f4f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TSOP21xx")
+			(footprint "OptoDevice:Vishay_MOLD-3Pin")
+			(datasheet "http://www.vishay.com/docs/82460/tsop45.pdf")
+			(description "IR Receiver Modules for Remote Control Systems")
+			(fields
+				(field
+					(name "Footprint") "OptoDevice:Vishay_MOLD-3Pin")
+				(field
+					(name "Datasheet") "http://www.vishay.com/docs/82460/tsop45.pdf")
+				(field
+					(name "Description") "IR Receiver Modules for Remote Control Systems")
+			)
+			(libsource
+				(lib "Interface_Optical")
+				(part "TSOP21xx")
+				(description "IR Receiver Modules for Remote Control Systems")
+			)
+			(property
+				(name "Sheetname")
+				(value "Kök")
+			)
+			(property
+				(name "Sheetfile")
+				(value "decofllWiringv2.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "opto IR receiver")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Vishay*MOLD*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8395d385-7cd1-46c7-a556-9cc5bdcd238f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Device")
+			(part "LED_ARGB")
+			(description "RGB LED, anode/red/green/blue")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED_ARGB")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "RGB LED, anode/red/green/blue")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "RK")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "GK")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "BK")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Polyfuse")
+			(description "Resettable fuse, polymeric positive temperature coefficient")
+			(footprints
+				(fp "*polyfuse*")
+				(fp "*PTC*")
+			)
+			(fields
+				(field
+					(name "Reference") "F")
+				(field
+					(name "Value") "Polyfuse")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resettable fuse, polymeric positive temperature coefficient")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Q_NMOS")
+			(description "N-MOSFET transistor")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_NMOS")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor")
+			)
+			(pins
+				(pin
+					(num "D")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "G")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "S")
+					(name "S")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R_Potentiometer_Trim")
+			(description "Trim-potentiometer")
+			(footprints
+				(fp "Potentiometer*")
+			)
+			(fields
+				(field
+					(name "Reference") "RV")
+				(field
+					(name "Value") "R_Potentiometer_Trim")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Trim-potentiometer")
+				(field
+					(name "Sim.Device") "R")
+				(field
+					(name "Sim.Type") "POT")
+				(field
+					(name "Sim.Pins") "1=r0 2=wiper 3=r1")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Interface_Optical")
+			(part "TSOP21xx")
+			(description "IR Receiver Modules for Remote Control Systems")
+			(docs "http://www.vishay.com/docs/82460/tsop45.pdf")
+			(footprints
+				(fp "Vishay*MOLD*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TSOP21xx")
+				(field
+					(name "Footprint") "OptoDevice:Vishay_MOLD-3Pin")
+				(field
+					(name "Datasheet") "http://www.vishay.com/docs/82460/tsop45.pdf")
+				(field
+					(name "Description") "IR Receiver Modules for Remote Control Systems")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "Vs")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "MCU_Module")
+			(part "Arduino_Leonardo")
+			(description "Arduino LEONARDO Microcontroller Module")
+			(docs "https://www.arduino.cc/en/Main/ArduinoBoardLeonardo")
+			(footprints
+				(fp "Arduino*UNO*R3*")
+			)
+			(fields
+				(field
+					(name "Reference") "A")
+				(field
+					(name "Value") "Arduino_Leonardo")
+				(field
+					(name "Footprint") "Module:Arduino_UNO_R3")
+				(field
+					(name "Datasheet") "https://www.arduino.cc/en/Main/ArduinoBoardLeonardo")
+				(field
+					(name "Description") "Arduino LEONARDO Microcontroller Module")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "2")
+					(name "IOREF")
+					(type "output")
+				)
+				(pin
+					(num "3")
+					(name "~{RESET}")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "3V3")
+					(type "power_out")
+				)
+				(pin
+					(num "5")
+					(name "+5V")
+					(type "power_out")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "A0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "A1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "A2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "A3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "A4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "A5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "D0/RX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "D1/TX")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "D2/SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "D3/SCL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "D4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "D5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "D6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "D7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "D8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "D9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "D10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "D11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "D12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "D13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "30")
+					(name "AREF")
+					(type "input")
+				)
+				(pin
+					(num "31")
+					(name "SDA/D2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "SCL/D3")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Nidec_CAS-120A1")
+			(description "Switch, single pole double throw")
+			(docs "https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+			(footprints
+				(fp "*Nidec?Copal?CAS?120A*")
+			)
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Nidec_CAS-120A1")
+				(field
+					(name "Footprint") "Button_Switch_SMD:Nidec_Copal_CAS-120A")
+				(field
+					(name "Datasheet") "https://www.nidec-components.com/e/catalog/switch/cas.pdf")
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Interface_Optical")
+			(uri "${KICAD10_SYMBOL_DIR}/Interface_Optical.kicad_sym")
+		)
+		(library
+			(logical "MCU_Module")
+			(uri "${KICAD10_SYMBOL_DIR}/MCU_Module.kicad_sym")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "RV1")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV2")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "+7.5V")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "F2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "29")
+				(pinfunction "GND_29")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Q1")
+				(pin "D")
+				(pinfunction "D_D")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "D")
+				(pinfunction "D_D")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q3")
+				(pin "D")
+				(pinfunction "D_D")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "RV3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(A1-+5V)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "5")
+				(pinfunction "+5V_5")
+				(pintype "power_out")
+			)
+			(node
+				(ref "SW1")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "Net-(A1-3V3)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "4")
+				(pinfunction "3V3_4")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "Vs_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "6")
+			(name "Net-(A1-A0)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "9")
+				(pinfunction "A0_9")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "RV1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "Net-(A1-A1)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "10")
+				(pinfunction "A1_10")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "RV2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "Net-(A1-A2)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "11")
+				(pinfunction "A2_11")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "RV3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(A1-D3{slash}SCL)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "18")
+				(pinfunction "D3/SCL_18")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Q1")
+				(pin "G")
+				(pinfunction "G_G")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(A1-D5)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "20")
+				(pinfunction "D5_20")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Q2")
+				(pin "G")
+				(pinfunction "G_G")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(A1-D6)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "21")
+				(pinfunction "D6_21")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Q3")
+				(pin "G")
+				(pinfunction "G_G")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "Net-(A1-D7)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "22")
+				(pinfunction "D7_22")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "13")
+			(name "Net-(A1-D11)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "26")
+				(pinfunction "D11_26")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "Net-(A1-VIN)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "8")
+				(pinfunction "VIN_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "F1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "Net-(D1-BK)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "4")
+				(pinfunction "BK_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "S")
+				(pinfunction "S_S")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "Net-(D1-GK)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "3")
+				(pinfunction "GK_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "S")
+				(pinfunction "S_S")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "Net-(D1-RK)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "RK_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q3")
+				(pin "S")
+				(pinfunction "S_S")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "Net-(SW1-C)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(U1-GND)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(A1-A3-Pad12)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "12")
+				(pinfunction "A3_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "21")
+			(name "unconnected-(A1-A4-Pad13)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "13")
+				(pinfunction "A4_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(A1-A5-Pad14)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "14")
+				(pinfunction "A5_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(A1-AREF-Pad30)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "30")
+				(pinfunction "AREF_30")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(A1-D0{slash}RX-Pad15)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "15")
+				(pinfunction "D0/RX_15")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(A1-D1{slash}TX-Pad16)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "16")
+				(pinfunction "D1/TX_16")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(A1-D2{slash}SDA-Pad17)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "17")
+				(pinfunction "D2/SDA_17")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(A1-D4-Pad19)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "19")
+				(pinfunction "D4_19")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(A1-D8-Pad23)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "23")
+				(pinfunction "D8_23")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(A1-D9-Pad24)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "24")
+				(pinfunction "D9_24")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(A1-D10-Pad25)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "25")
+				(pinfunction "D10_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(A1-D12-Pad27)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "27")
+				(pinfunction "D12_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(A1-D13-Pad28)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "28")
+				(pinfunction "D13_28")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(A1-IOREF-Pad2)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "2")
+				(pinfunction "IOREF_2")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(A1-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(A1-SCL{slash}D3-Pad32)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "32")
+				(pinfunction "SCL/D3_32")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(A1-SDA{slash}D2-Pad31)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "31")
+				(pinfunction "SDA/D2_31")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(A1-~{RESET}-Pad3)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "3")
+				(pinfunction "~{RESET}_3")
+				(pintype "input")
+			)
+		)
+	)
+)
