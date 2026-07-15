@@ -1,4 +1,4 @@
-# DecoFLL
+<img width="976" height="594" alt="image" src="https://github.com/user-attachments/assets/694fa7c7-d604-4585-b949-e94177e78c38" /># DecoFLL
 A decoration piece with remote and manuelly controllable RGB for our schools First Lego League Team, BBR!!!
 
 # Key Features:
@@ -14,5 +14,4 @@ A decoration piece with remote and manuelly controllable RGB for our schools Fir
   # Wirings
   The wring schematics are prepared using the KiCAD program. It includes all the electrical components used in the project. The pins connected are coherent with the firmware.
 
-  <img width="995" height="639" alt="image" src="https://github.com/user-attachments/assets/aacf47a1-e5d3-41cb-8500-d66b51085b09" />
-
+<img width="976" height="594" alt="image" src="https://github.com/user-attachments/assets/ebf4e007-2d31-4fea-b2b0-4b980371041f" />
