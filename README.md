@@ -14,3 +14,9 @@ A decoration piece with remote and manuelly controllable RGB for our schools Fir
   The wring schematics are prepared using the KiCAD program. It includes all the electrical components used in the project. The pins connected are coherent with the firmware.
 
 <img width="976" height="594" alt="image" src="https://github.com/user-attachments/assets/ebf4e007-2d31-4fea-b2b0-4b980371041f" />
+
+# Credits
+This project uses:
+- KiCAD
+- Autodesk Fusion 360
+- Arduino IDE
