@@ -1,1 +1,10 @@
-
+These steps should be followed at the assembly process of this project:
+- Use m3 bolts and nuts to place the Arduino Uno R3 on the back plate.
+- Use m3 bolts and nuts to place the mosfet transistors
+- The potentiometer's own nuts can be used for the placement to the appropriate holes. 
+- The soldering of the wires and components can be done at this point using the schematic given at readme. 
+- After the soldering of existing components, the led strips and IR receivers should be sticked to the middle plate at appropriate positions. 
+- After the soldering part is completely done a blurred material (eg white paper) should be sticked to the front plate and the assembly of the tgree plate swhould be done. 
+- The assembly of the plates is done using m4 bolts and nuts.
+- A nut should be put between the front and mid plate to give space for light to separate.
+- The assembly of holder parts can be done easily without any additional material. in the case if tolerance problems glue can be effective.
