@@ -16,18 +16,18 @@ void setup() {
 
 void loop() {
   Serial.print("Red");
-  DigitalWrite(red, HIGH);
-  DigitalWrite(blue, LOW);
-  DigitalWrite(green, LOW);
+  digitalWrite(red, HIGH);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, LOW);
   delay(1000);
   Serial.print("Green");
-  DigitalWrite(red, LOW);
-  DigitalWrite(blue, LOW);
-  DigitalWrite(green, HIGH);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, LOW);
+  digitalWrite(green, HIGH);
   delay(1000);
   Serial.print("Blue");
-  DigitalWrite(red, LOW);
-  DigitalWrite(blue, HIGH);
-  DigitalWrite(green, LOW);
+  digitalWrite(red, LOW);
+  digitalWrite(blue, HIGH);
+  digitalWrite(green, LOW);
   delay(1000);          
 }
