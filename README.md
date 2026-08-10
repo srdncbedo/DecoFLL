@@ -2,6 +2,9 @@
 
 A decoration piece with remote and manuelly controllable RGB for our schools First Lego League Team, BBR!!!
 
+<img width="1522" height="524" alt="BBR" src="https://github.com/user-attachments/assets/5c63ef64-7c7c-4c88-88f9-b5c25af6426c" />
+
+
 # Key Features:
 - Can be controlled using IR remote controller and the potentiometers at back.
 - Mode change between manuel potentiometer and remote control is done using a switch.
