@@ -14,6 +14,7 @@ A decoration piece with remote and manuelly controllable RGB for our schools Fir
 - The holder parts makes the piece stand in a good position.
 - A rechargable battery is used.
 - The CAD design is made to be manufactured by a CNC carving machine.
+- Uses an Arduino UNO R3 as the microcontroller.
 
   # Wirings
   The wring schematics are prepared using the KiCAD program. It includes all the electrical components used in the project. The pins connected are coherent with the firmware.
