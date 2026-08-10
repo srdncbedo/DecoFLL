@@ -1,4 +1,5 @@
 - The original project's CNC cutting process is done using a snapmaker 3in1.
 - The design tolerances are decided considering that the 1 mm flat end mill will be used.
-- Safety glasses  must be put on in the CNC cutting process.
-  
+- Safety glasses  must be put on during the CNC cutting process.
+- The origin point should be set to the middle of the wood plate.
+- The wood thickness should be measured and entered to the thickness parameter if dfx files are not going to be used.
