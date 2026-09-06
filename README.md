@@ -4,6 +4,9 @@ A decoration piece with remote and manuelly controllable RGB for our schools Fir
 
 <img width="1522" height="524" alt="BBR" src="https://github.com/user-attachments/assets/5c63ef64-7c7c-4c88-88f9-b5c25af6426c" />
 
+And this is the finished build:
+<img width="553" height="404" alt="image" src="https://github.com/user-attachments/assets/d9ae5f14-0ad6-44fc-aa37-0d1d88a06b03" />
+
 
 # Key Features:
 - Can be controlled using IR remote controller and the potentiometers at back.
